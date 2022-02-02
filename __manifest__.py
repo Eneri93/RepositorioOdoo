@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
+from email.mime import application
+
+
 {
-    'name': "proyectos",
+    'name': "Gestion y asignacion de ",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -8,6 +11,7 @@
 
     'description': """
         Long description of module's purpose
+        el mayor fracaso de aplicacion ever seen
     """,
 
     'author': "My Company",
@@ -32,4 +36,5 @@
     'demo': [
         'demo/demo.xml',
     ],
+     application: true,
 }
