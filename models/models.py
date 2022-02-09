@@ -45,5 +45,8 @@ class proyeto(models.Model):
     # atributos
     nombreProyecto = fields.Char(string='Nombre proyecto', required=True)
     tipoProyecto= fields.Selection(string='Tipo proyecto', selection=[('f','Front-end'),('b','Back-end')],help='Tipo de proyecto al que esta destinado')
-    ciudadProyecto=fields.Char(string='ciudad')
+    fechaInicio = fields.Date(string='Fecha de inicio', required=True)
+    fechaFin = fields.Date(string='Fecha de fin', required=True)
     descripcionProyecto= fields.Text(string='descripcion del proyecto')
+
+    

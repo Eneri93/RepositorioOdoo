@@ -28,7 +28,9 @@ from email.mime import application
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
+        'security/proyectos_security.xml'
+
         'views/views.xml',
         'views/templates.xml',
     ],
@@ -36,5 +38,5 @@ from email.mime import application
     'demo': [
         'demo/demo.xml',
     ],
-     application: true,
+     'application': true,
 }
