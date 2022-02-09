@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-from email.mime import application
-
-
 {
     'name': "Gestion y asignacion de ",
 
@@ -29,8 +26,7 @@ from email.mime import application
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'security/proyectos_security.xml'
-
+        'security/proyectos_security.xml',
         'views/views.xml',
         'views/templates.xml',
     ],
@@ -38,5 +34,5 @@ from email.mime import application
     'demo': [
         'demo/demo.xml',
     ],
-     'application': true,
+     'application': True,
 }

@@ -49,4 +49,3 @@ class proyeto(models.Model):
     fechaFin = fields.Date(string='Fecha de fin', required=True)
     descripcionProyecto= fields.Text(string='descripcion del proyecto')
 
-    
